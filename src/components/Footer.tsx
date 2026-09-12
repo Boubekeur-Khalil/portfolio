@@ -53,17 +53,17 @@ const Footer: React.FC = () => {
       <footer className="bg-white py-4 dark:bg-black">
         <div className="max-w-screen-xl mx-auto p-4 md:flex md:items-center md:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © {new Date().getFullYear()} HAK3R Theme. All Rights Reserved.
+            © {new Date().getFullYear()} Khalil Boubekeur. All Rights Reserved.
           </span>
           <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
             <li>
-              Brought to you with ❤️ by <a href="https://getcyber.me" className="mr-4 hover:underline md:mr-6">
-                GetCyber.me
+              Built with the <a href="https://github.com/Dan-Duran/hak3r" className="mr-4 hover:underline md:mr-6">
+                HAK3R template
               </a>
             </li>
             <li>
-              <a href="/privacy" className="mr-4 hover:underline md:mr-6">
-                Privacy Policy
+              <a href="mailto:khalil.beckeur@gmail.com" className="mr-4 hover:underline md:mr-6">
+                Contact
               </a>
             </li>
           </ul>

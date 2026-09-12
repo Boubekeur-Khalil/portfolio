@@ -71,13 +71,13 @@ const Nav: React.FC = () => {
         <span className={`self-center whitespace-nowrap font-bold dark:text-white transition-all duration-300 ${
           isScrolled ? 'text-lg' : 'text-2xl'
         }`}>
-          HAK3R
+          KHALIL
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
         <DarkThemeToggle />
         <a
-        href="https://github.com/Dan-Duran/hak3r"
+        href="https://github.com/Boubekeur-Khalil/vuln-chain-labs"
         target="_blank"
         rel="noopener noreferrer"
         className={`hidden md:flex mx-3 bg-gray-800 hover:bg-gray-900 py-2 px-4 transition-all duration-300 flex items-center gap-2 ${
@@ -97,7 +97,7 @@ const Nav: React.FC = () => {
             clipRule="evenodd"
           />
         </svg>
-        <span className="text-white font-medium">FREE Download</span>
+        <span className="text-white font-medium">Vuln Labs</span>
       </a>
         <button
           type="button"

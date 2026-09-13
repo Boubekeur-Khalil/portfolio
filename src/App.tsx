@@ -85,15 +85,15 @@ const App: React.FC = () => {
           <dl className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
               <div className="flex flex-col items-center justify-center">
                   <dt className="mb-2 text-5xl md:text-7xl font-extrabold">
-                      <span data-counter-target="9">0</span>
+                      <span data-counter-target="70">0</span>
                   </dt>
                   <dd className="font-light text-2xl text-gray-500 dark:text-gray-400">Accepted Reports</dd>
               </div>
               <div className="flex flex-col items-center justify-center">
                   <dt className="mb-2 text-5xl md:text-7xl font-extrabold">
-                      <span data-counter-target="3">0</span>
+                      <span data-counter-target="10">0</span>
                   </dt>
-                  <dd className="font-light text-2xl text-gray-500 dark:text-gray-400">Critical Findings</dd>
+                  <dd className="font-light text-2xl text-gray-500 dark:text-gray-400">CVSS 10.0</dd>
               </div>
               <div className="flex flex-col items-center justify-center">
                   <dt className="mb-2 text-5xl md:text-7xl font-extrabold">
@@ -248,7 +248,7 @@ const App: React.FC = () => {
               Security researcher from Algeria. I specialize in chaining low-severity findings into critical exploit paths â€” turning informational disclosures into full RCE through methodical escalation.
               </p>
               <p className="text-xl">
-             On my first private engagement, I produced 9 accepted reports (3 Critical, 2 High, 4 Medium) including a CVSS 10.0 path traversal and a 6-step chain from outsider to Remote Code Execution. I also build things â€” Android apps, web platforms, and the security tools I wish existed.
+             Since 2026, I've submitted 70+ accepted reports across multiple private programs on YesWeHack and HackerOne. My highest-impact engagement produced a 6-step chain from outsider to Remote Code Execution (CVSS 10.0). I also build things: Android apps, web platforms, and the security tools I wish existed.
               </p>
               <a href="https://github.com/Boubekeur-Khalil" target="_blank" rel="noopener noreferrer" className="inline-flex mt-8 items-center justify-center px-5 py-4 text-base font-medium text:3xl text-center text-gray-900 border-4 border-green-300  hover:bg-green-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-green-700 dark:hover:bg-green-700 dark:focus:ring-gray-800"
           >
